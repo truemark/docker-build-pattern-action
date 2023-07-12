@@ -4,7 +4,6 @@
 [![Latest Release](https://img.shields.io/github/v/release/truemark/docker-build-pattern-action)](https://github.com/truemark/docker-build-pattern-action/releases)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/truemark/docker-build-pattern-action)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/truemark/docker-build-pattern-action)
-![build-test](https://github.com/truemark/docker-build-pattern-action/workflows/build-test/badge.svg)
 
 Builds and pushes a tagged image to a specified Docker repository. It relies on buildx to cache Docker layers wherever applicable.
 
