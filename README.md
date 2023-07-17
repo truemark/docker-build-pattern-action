@@ -13,7 +13,7 @@ Builds and pushes a tagged image to a specified Docker repository. It relies on 
     runs-on: ubuntu-latest
     steps:
       - name: Build and push to Docker
-        uses: truemark/docker-build-pattern-action@v1
+        uses: truemark/docker-build-pattern-action@v2
         with:
           registry: "${{ secrets.DOCKER_HUB_REGISTRY }}"
           username: "${{ secrets.DOCKER_HUB_USERNAME }}"
