@@ -45,7 +45,7 @@ runs:
         password: ${{ inputs.password }}
     # And make it available for builds
     - name: Build and push
-      uses: docker/build-push-action@v4
+      uses: docker/build-push-action@v5
       with:
         context: ${{ inputs.context }}
         push: true
